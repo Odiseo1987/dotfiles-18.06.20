@@ -1,6 +1,6 @@
 ;-------------------------------------------------
 ;                                                ;
-;           Polybar config for Cranium           ;
+;                    Polybar                     ;
 ;                                                ;
 ;-------------------------------------------------
 #The icons in the default config (          , etc) work but all other font Awesome characters I tried do not display in Polybar. The workspace name appears empty.
