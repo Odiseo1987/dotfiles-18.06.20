@@ -1,0 +1,11 @@
+[module/music]
+type = custom/script
+interval = 1
+bar-width = 50%
+
+;format-background = ${colors.background-alt}
+;format-foreground = ${colors.foreground-alt}
+
+label = " %output% "
+
+exec = ~/.config/polybar/mpris.sh

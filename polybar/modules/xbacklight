@@ -1,0 +1,40 @@
+[module/xbacklight]
+type = internal/xbacklight
+card = intel_backlight
+
+;format = <ramp> <bar>
+format = <ramp>
+format-background = ${colors.background}
+format-padding = 1
+label = %percentage%%
+label-padding = 1
+
+bar-empty = 
+bar-fill = 
+bar-indicator = 
+bar-width = 10
+bar-empty-foreground = ${colors.foreground}
+bar-indicator-foreground = ${colors.foreground}
+bar-foreground-0 = ${colors.foreground}
+bar-foreground-1 = ${colors.foreground}
+bar-foreground-2 = ${colors.foreground}
+bar-foreground-3 = ${colors.foreground}
+bar-foreground-4 = ${colors.foreground}
+bar-foreground-5 = ${colors.foreground}
+bar-foreground-6 = ${colors.foreground}
+
+ramp-0 =  
+ramp-1 =  
+ramp-2 =  
+ramp-3 =  
+ramp-4 =  
+ramp-5 =  
+ramp-6 =  
+ramp-0-foreground = ${colors.foreground-alt}
+ramp-1-foreground = ${colors.foreground-alt}
+ramp-2-foreground = ${colors.foreground-alt}
+ramp-3-foreground = ${colors.foreground-alt}
+ramp-4-foreground = ${colors.foreground-alt}
+ramp-5-foreground = ${colors.foreground-alt}
+ramp-6-foreground = ${colors.foreground-alt}
+

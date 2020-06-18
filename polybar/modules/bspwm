@@ -1,0 +1,106 @@
+[module/bspwm]
+type = internal/bspwm
+
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+
+#ws-icon-0 = 1;♚
+#ws-icon-1 = 2;♛
+#ws-icon-2 = 3;♜
+#ws-icon-3 = 4;♝
+#ws-icon-4 = 5;♞
+#ws-icon-default = ♟ 
+
+format = <label-state> <label-mode>
+
+label-focused = %name%
+label-focused-background = ${colors.foreground}
+label-focused-foreground = ${colors.background}
+label-focused-underline= ${colors.background-unf}
+label-focused-padding = 0
+
+label-occupied = %name%
+label-occupied-padding = 0
+label-occupied-foreground = ${colors.background-unf}
+
+
+label-urgent = %index%!
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-padding = 0
+
+;label-empty = %index%
+;label-empty-foreground = ${colors.foreground}
+;label-empty-padding = 0
+
+Separator in between workspaces
+label-separator = " "
+;label-separator-padding = 1
+;label-separator-foreground = #ffb52a
+
+;[module/i3]
+
+;type = internal/i3
+;
+;strip-wsnumbers = true
+;
+;label-focused-padding = 3
+;label-unfocused-padding = 3
+;
+;label-focused-background = ${colors.background-alt}
+;label-unfocused-background = ${colors.background-unf}
+;
+;label-mode-padding = 0
+;label-mode-background = ${colors.background-unf}
+;
+;label-visible-underline = #555555
+;label-visible-padding = 4
+
+
+; Available tokens:
+;   %mode%
+; Default: %mode%
+;label-mode = %mode%
+;label-mode-padding = 2
+;label-mode-background = #e60053
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+;label-focused = %name%
+;label-focused-foreground = #ffffff
+;label-focused-background = ${colors.background-alt}
+;label-focused-underline = #fba922
+;label-focused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+;label-unfocused = %name%
+;label-unfocused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+;label-visible = %name%
+;label-visible-underline = #555555
+;label-visible-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+;label-urgent = %name%
+;label-urgent-foreground = #000000
+;label-urgent-background = ${colors.background-alrt}
+;label-urgent-padding = 4[201~]]

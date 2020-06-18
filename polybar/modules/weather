@@ -1,0 +1,10 @@
+[module/weather]
+type = custom/script
+interval = 60
+
+;format-background = ${colors.background-alt}
+format = <label>
+format-prefix = "    "
+format-suffix = "   "
+format-prefix-foreground = ${colors.foreground-alt}
+exec = python ~/.config/polybar/weather.py

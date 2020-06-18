@@ -1,0 +1,10 @@
+[module/launcher]
+type = custom/text
+
+click-left = rofi -show drun
+click-right= rofi -show run
+click-middle = rofi -show window
+content = 
+;content-background = #3C5A46
+content-foreground = #F3F3BA
+content-padding = 1
